@@ -2,3 +2,7 @@
 	path = recordings/longnow
 	url = https://github.com/datalad-datasets/longnow-podcasts.git
 	datalad-id = b3ca2718-8901-11e8-99aa-a0369f7c647e
+[submodule "midterm_project"]
+	path = midterm_project
+	url = ./midterm_project
+	datalad-id = 641bc4fe-1043-11ea-97f1-e86a64c8054c
