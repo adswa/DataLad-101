@@ -55,3 +55,7 @@ installed subdatasets, so a safer way to proceed is to
 set a decent --recursion-limit:
 "datalad install -s ../DataLad-101 -r --recursion-limit 2"
 
+The command "git annex whereis PATH" lists the repositories that have
+the file content of an annexed file. When using "datalad get" to retrieve
+file content, those repositories will be queried.
+
